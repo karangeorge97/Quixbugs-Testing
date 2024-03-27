@@ -1,5 +1,6 @@
 package correct_java_programs.bucketsort;
 
+import correct_java_programs.BUCKETSORT;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
@@ -18,7 +19,7 @@ public class Randoop_BUCKETSORT_Regression0 {
         boolean boolean3 = java.util.Collections.addAll((java.util.Collection<java.lang.Integer>) intList2, intArray1);
         // The following exception was thrown during execution in test generation
         try {
-            java.util.ArrayList<java.lang.Integer> intList5 = correct_java_programs.BUCKETSORT.bucketsort(intList2, (int) (byte) 1);
+            java.util.ArrayList<java.lang.Integer> intList5 = BUCKETSORT.bucketsort(intList2, (int) (byte) 1);
             org.junit.Assert.fail("Expected exception of type java.lang.IndexOutOfBoundsException; message: Index: 10, Size: 1");
         } catch (java.lang.IndexOutOfBoundsException e) {
             // Expected exception.

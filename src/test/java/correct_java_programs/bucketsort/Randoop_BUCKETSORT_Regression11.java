@@ -1,8 +1,13 @@
 package correct_java_programs.bucketsort;
 
+import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class Randoop_BUCKETSORT_Regression11 {
@@ -13,27 +18,27 @@ public class Randoop_BUCKETSORT_Regression11 {
     public void test5501() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "Randoop_BUCKETSORT_Regression11.test5501");
-        java.lang.Integer[] intArray1 = new java.lang.Integer[] { 0 };
-        java.util.ArrayList<java.lang.Integer> intList2 = new java.util.ArrayList<java.lang.Integer>();
-        boolean boolean3 = java.util.Collections.addAll((java.util.Collection<java.lang.Integer>) intList2, intArray1);
-        java.util.ArrayList<java.lang.Integer> intList5 = correct_java_programs.BUCKETSORT.bucketsort(intList2, (int) (short) 10);
-        java.util.ArrayList<java.lang.Integer> intList7 = correct_java_programs.BUCKETSORT.bucketsort(intList5, (int) '4');
-        java.util.ArrayList<java.lang.Integer> intList9 = correct_java_programs.BUCKETSORT.bucketsort(intList5, (int) (byte) 1);
-        java.util.ArrayList<java.lang.Integer> intList11 = correct_java_programs.BUCKETSORT.bucketsort(intList5, (int) (short) 100);
-        java.util.ArrayList<java.lang.Integer> intList13 = correct_java_programs.BUCKETSORT.bucketsort(intList11, (int) '4');
-        java.util.ArrayList<java.lang.Integer> intList15 = correct_java_programs.BUCKETSORT.bucketsort(intList13, 10);
-        java.util.ArrayList<java.lang.Integer> intList17 = correct_java_programs.BUCKETSORT.bucketsort(intList13, (int) '4');
-        java.util.ArrayList<java.lang.Integer> intList19 = correct_java_programs.BUCKETSORT.bucketsort(intList17, (int) 'a');
-        org.junit.Assert.assertNotNull(intArray1);
-        org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
-        org.junit.Assert.assertNotNull(intList5);
-        org.junit.Assert.assertNotNull(intList7);
-        org.junit.Assert.assertNotNull(intList9);
-        org.junit.Assert.assertNotNull(intList11);
-        org.junit.Assert.assertNotNull(intList13);
-        org.junit.Assert.assertNotNull(intList15);
-        org.junit.Assert.assertNotNull(intList17);
-        org.junit.Assert.assertNotNull(intList19);
+        Integer[] intArray1 = new Integer[] { 0 };
+        ArrayList<Integer> intList2 = new ArrayList<Integer>();
+        boolean boolean3 = Collections.addAll((Collection<Integer>) intList2, intArray1);
+        ArrayList<Integer> intList5 = correct_java_programs.BUCKETSORT.bucketsort(intList2, (int) (short) 10);
+        ArrayList<Integer> intList7 = correct_java_programs.BUCKETSORT.bucketsort(intList5, (int) '4');
+        ArrayList<Integer> intList9 = correct_java_programs.BUCKETSORT.bucketsort(intList5, (int) (byte) 1);
+        ArrayList<Integer> intList11 = correct_java_programs.BUCKETSORT.bucketsort(intList5, (int) (short) 100);
+        ArrayList<Integer> intList13 = correct_java_programs.BUCKETSORT.bucketsort(intList11, (int) '4');
+        ArrayList<Integer> intList15 = correct_java_programs.BUCKETSORT.bucketsort(intList13, 10);
+        ArrayList<Integer> intList17 = correct_java_programs.BUCKETSORT.bucketsort(intList13, (int) '4');
+        ArrayList<Integer> intList19 = correct_java_programs.BUCKETSORT.bucketsort(intList17, (int) 'a');
+        Assert.assertNotNull(intArray1);
+        Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
+        Assert.assertNotNull(intList5);
+        Assert.assertNotNull(intList7);
+        Assert.assertNotNull(intList9);
+        Assert.assertNotNull(intList11);
+        Assert.assertNotNull(intList13);
+        Assert.assertNotNull(intList15);
+        Assert.assertNotNull(intList17);
+        Assert.assertNotNull(intList19);
     }
 
     @Test
