@@ -6,6 +6,7 @@
 package correct_java_programs.pascal;
 
 import correct_java_programs.PASCAL;
+import java_programs.PASCAL_ESTest_scaffolding;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.Test;

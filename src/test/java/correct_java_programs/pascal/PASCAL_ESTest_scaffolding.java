@@ -4,7 +4,7 @@
  * Thu Mar 21 01:50:35 GMT 2024
  */
 
-package correct_java_programs.pascal;
+package java_programspascal;
 
 import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
 import org.evosuite.runtime.sandbox.Sandbox;
