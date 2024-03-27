@@ -17,7 +17,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.2</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -47,10 +47,28 @@
             <version>2.15.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.evosuite</groupId>
+            <artifactId>evosuite-standalone-runtime</artifactId>
+            <version>1.0.6</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <includes>
+                        <include>**/*_ESTest.java</include>
+                        <include>**/*_ESTest_scaffolding.java</include>
+                    </includes>
+
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.openclover</groupId>
                 <artifactId>clover-maven-plugin</artifactId>
@@ -61,6 +79,7 @@
                         <exclude>**/*_ESTest.java</exclude>
                         <exclude>**/*_ESTest_scaffolding.java</exclude>
                     </excludes>
+
                 </configuration>
                 <executions>
                     <execution>
