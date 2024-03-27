@@ -1,7 +1,5 @@
 package correct_java_programs;
 
-import java_programs.Node;
-
 public class WeightedEdge implements Comparable<WeightedEdge>{
     public Node node1;
     public Node node2;

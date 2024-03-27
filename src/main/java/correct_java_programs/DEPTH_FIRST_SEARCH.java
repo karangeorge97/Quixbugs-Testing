@@ -1,7 +1,5 @@
 package correct_java_programs;
 
-import java_programs.Node;
-
 import java.util.HashSet;
 import java.util.Set;
 /*
@@ -13,6 +11,8 @@ import java.util.Set;
  *
  * @author derricklin
  */
+
+import java_programs.Node;
 public class DEPTH_FIRST_SEARCH {
     public static boolean depth_first_search(Node startnode, Node goalnode) {
         Set<Node> nodesvisited = new HashSet<>();

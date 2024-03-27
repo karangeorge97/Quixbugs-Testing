@@ -4,12 +4,11 @@ package correct_java_programs;
  * and open the template in the editor.
  */
 
-import java_programs.Node;
-
 /**
  *
  * @author derricklin
  */
+import java_programs.Node;
 public class DETECT_CYCLE {
     public static boolean detect_cycle(Node node) {
         Node hare = node;
