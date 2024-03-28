@@ -4,7 +4,7 @@
  * Thu Mar 21 01:36:26 GMT 2024
  */
 
-package java_programs.next_palindrome;
+package java_programs.next_permutation;
 
 import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
 import org.evosuite.runtime.sandbox.Sandbox;

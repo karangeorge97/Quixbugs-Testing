@@ -3,8 +3,9 @@
  * Thu Mar 21 01:38:50 GMT 2024
  */
 
-package java_programs;
+package java_programs.pascal;
 
+import java_programs.PASCAL;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.Test;

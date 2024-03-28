@@ -3,7 +3,7 @@
  * Thu Mar 21 01:36:26 GMT 2024
  */
 
-package java_programs.next_palindrome;
+package java_programs.next_permutation;
 
 import java_programs.NEXT_PERMUTATION;
 import org.evosuite.runtime.EvoRunner;

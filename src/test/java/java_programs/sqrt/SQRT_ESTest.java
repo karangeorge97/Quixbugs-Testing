@@ -3,8 +3,9 @@
  * Thu Mar 21 01:39:11 GMT 2024
  */
 
-package java_programs;
+package java_programs.sqrt;
 
+import java_programs.SQRT;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.Test;

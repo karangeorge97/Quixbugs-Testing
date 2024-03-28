@@ -3,8 +3,9 @@
  * Thu Mar 21 01:37:37 GMT 2024
  */
 
-package java_programs;
+package java_programs.next_palindrome;
 
+import java_programs.NEXT_PALINDROME;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.Test;

@@ -4,7 +4,7 @@
  * Thu Mar 21 01:39:11 GMT 2024
  */
 
-package java_programs;
+package java_programs.sqrt;
 
 import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
 import org.evosuite.runtime.sandbox.Sandbox;
